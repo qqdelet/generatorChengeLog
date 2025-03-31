@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change log</title>
+    <!-- Исправлена кавычка в href -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Generator</h1>
+    <div class="container">
+        <div class="input-column">
+            <label for="date">Дата:</label>
+            <input type="date" id="date">
+        </div>
+        <div class="input-column">
+            <textarea id="input-text" rows="10" cols="50" placeholder="Введите текст..."></textarea>
+        </div>
+        <div class="input-column">
+            <!-- Убедитесь, что все функции определены в подключаемых скриптах -->
+            <button onclick="saveChanges()">Сохранить</button>
+            <button onclick="resetInput()">Сбросить</button>
+            <button onclick="Version()">Версия</button> 
+            <button onclick="NewFunc()">Добавить</button>
+            <button onclick="NewText()">Добавили</button>   
+            <button onclick="UpdateFanc()">Обновили</button>        
+            <button onclick="BagFix()">Исправление бага</button>        
+            <button onclick="TAG()">Тег</button>        
+        </div>
+    </div>
+    
+    <div id="sidebar">
+        <h2>change log</h2>
+        <div id="history-list"></div>
+    </div>
+
+    <script src="inputHandler.js"></script>
+    <script src="outputHandler.js"></script>
+    <script src="sample.js"></script>
+</body>
+</html>

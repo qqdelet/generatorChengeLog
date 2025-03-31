@@ -1,0 +1,46 @@
+body{
+    background-color:#2C3E50;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 950px;
+    height: 100%;
+    background-color: #252a2e;
+    padding: 20px;
+    overflow-y: auto;
+    border-left: 1px solid #ddd;
+    color: white;
+}
+
+#history-list {
+    padding: 10px;
+}
+
+#history-list div {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#input-text {
+    border-color: #252a2e; /* Цвет рамки */
+    background-color: #252a2e;
+    color:white;
+    /* Дополнительные стили, если нужно */
+}
+
+
